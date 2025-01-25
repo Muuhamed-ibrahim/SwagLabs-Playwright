@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-01-25T13:55:17 EET" name="All Test Suite" finished-at="2025-01-25T13:56:10 EET" duration-ms="52796">
+    <groups>
+    </groups>
+    <test started-at="2025-01-25T13:55:17 EET" name="E2E Purchase Flow" finished-at="2025-01-25T13:56:10 EET" duration-ms="52796">
+      <class name="testcases.TC05_Overview">
+        <test-method signature="completeOrderAndValidatePrice()[pri:1, instance:testcases.TC05_Overview@5edacf20]" started-at="2025-01-25T13:56:07 EET" name="completeOrderAndValidatePrice" description="Complete Order and Validate Total Price" finished-at="2025-01-25T13:56:07 EET" duration-ms="104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- completeOrderAndValidatePrice -->
+        <test-method signature="clickOnFinishBtn()[pri:2, instance:testcases.TC05_Overview@5edacf20]" started-at="2025-01-25T13:56:07 EET" name="clickOnFinishBtn" description="Click on Finish Button" finished-at="2025-01-25T13:56:08 EET" duration-ms="361" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnFinishBtn -->
+      </class> <!-- testcases.TC05_Overview -->
+      <class name="testcases.TC02_Inventory">
+        <test-method signature="selectItemsRandomly()[pri:1, instance:testcases.TC02_Inventory@1ffaf86]" started-at="2025-01-25T13:56:04 EET" name="selectItemsRandomly" description="add random products and calculate the price" finished-at="2025-01-25T13:56:04 EET" duration-ms="829" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectItemsRandomly -->
+        <test-method signature="clickOnCartBtn()[pri:2, instance:testcases.TC02_Inventory@1ffaf86]" started-at="2025-01-25T13:56:05 EET" name="clickOnCartBtn" description="click on cart Btn" finished-at="2025-01-25T13:56:06 EET" duration-ms="1495" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnCartBtn -->
+      </class> <!-- testcases.TC02_Inventory -->
+      <class name="testcases.TC01_Login">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:testcases.TC01_Login@e350b40]" started-at="2025-01-25T13:55:17 EET" name="beforeSuite" finished-at="2025-01-25T13:55:17 EET" duration-ms="156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="setUpDriver(java.lang.String)[pri:0, instance:testcases.TC01_Login@e350b40]" started-at="2025-01-25T13:55:17 EET" name="setUpDriver" finished-at="2025-01-25T13:56:01 EET" duration-ms="43827" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[${browsername}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method signature="loginWithValidUsernameAndPassword()[pri:1, instance:testcases.TC01_Login@e350b40]" started-at="2025-01-25T13:56:01 EET" name="loginWithValidUsernameAndPassword" description="Login with Valid Username and Password" finished-at="2025-01-25T13:56:03 EET" duration-ms="1572" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidUsernameAndPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC01_Login@e350b40]" started-at="2025-01-25T13:56:08 EET" name="tearDown" finished-at="2025-01-25T13:56:10 EET" duration-ms="2477" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:testcases.TC01_Login@e350b40]" started-at="2025-01-25T13:56:10 EET" name="afterSuite" finished-at="2025-01-25T13:56:10 EET" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- testcases.TC01_Login -->
+      <class name="testcases.TC04_Checkout">
+        <test-method signature="enterDataInCheckoutPage()[pri:1, instance:testcases.TC04_Checkout@109f8c7e]" started-at="2025-01-25T13:56:07 EET" name="enterDataInCheckoutPage" description="Enter Valid Data in Checkout Page" finished-at="2025-01-25T13:56:07 EET" duration-ms="580" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterDataInCheckoutPage -->
+      </class> <!-- testcases.TC04_Checkout -->
+      <class name="testcases.TC03_Cart">
+        <test-method signature="clickOnCheckoutBtn()[pri:1, instance:testcases.TC03_Cart@6574a52c]" started-at="2025-01-25T13:56:06 EET" name="clickOnCheckoutBtn" description="Click on Checkout Button" finished-at="2025-01-25T13:56:07 EET" duration-ms="414" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnCheckoutBtn -->
+      </class> <!-- testcases.TC03_Cart -->
+    </test> <!-- E2E Purchase Flow -->
+  </suite> <!-- All Test Suite -->
+</testng-results>

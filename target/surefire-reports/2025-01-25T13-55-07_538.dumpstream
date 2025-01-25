@@ -1,0 +1,4 @@
+# Created at 2025-01-25T13:55:10.657
+Boot Manifest-JAR contains absolute paths in classpath 'F:\4-intellij\labs\SwagLabs-Playwright\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+
