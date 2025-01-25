@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" verbose="1" parallel="none">
+
+    <parameter name="browsername" value="chromium"/>
+
+    <!-- E2E Test: Purchase Flow -->
+    <test name="E2E Purchase Flow">
+        <parameter name="browsername" value="${browsername}"/>
+
+        <classes>
+            <class name="testcases.TC01_Login">
+                <methods>
+                    <include name="loginWithValidUsernameAndPassword"/>
+                </methods>
+            </class>
+
+            <class name="testcases.TC02_Inventory">
+                <methods>
+                    <include name="selectItemsRandomly"/>
+                    <include name="clickOnCartBtn"/>
+                </methods>
+            </class>
+
+            <class name="testcases.TC03_Cart">
+                <methods>
+                    <include name="clickOnCheckoutBtn"/>
+                </methods>
+            </class>
+
+            <class name="testcases.TC04_Checkout">
+                <methods>
+                    <include name="enterDataInCheckoutPage"/>
+                </methods>
+            </class>
+
+            <class name="testcases.TC05_Overview">
+                <methods>
+                    <include name="completeOrderAndValidatePrice"/>
+                    <include name="clickOnFinishBtn"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
